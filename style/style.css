@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    font-family: arial;
+    font-size: 12px;
+    color: floralwhite;
+}
+
+/*Se a tela tiver pelo menos 400px */
+@media(min-width: 400px){
+    body{
+        font-size: 20px;
+    }
+}
+
+a{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 25rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    padding: 10px 20px;
+}
+
+.site-titulo,
+.site-subtitulo{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitulo{
+    font-style: italic;
+}
+
+.img-portifolio{
+    height: 280px;
+    width: 280px;
+}
+figcaption{
+      margin-top: 1.5rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
